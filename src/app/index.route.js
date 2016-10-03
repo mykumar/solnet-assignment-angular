@@ -23,9 +23,25 @@
         controller: 'DashBoardController',
         controllerAs: 'DashBoard'
       })
-     .state('app.blank', {
-        url: '/blank',
-        templateUrl: 'app/components/blank/blank.html'
+     .state('app.timemng', {
+        url: '/timemng',
+        templateUrl: 'app/components/timeMng/timemng.html'
+      })
+     .state('app.inbox', {
+        url: '/inbox',
+        templateUrl: 'app/components/inbox/inbox.html'
+      })
+     .state('app.calendar', {
+        url: '/calendar',
+        templateUrl: 'app/components/calendar/calendar.html'
+      })
+     .state('app.analytics', {
+        url: '/analytics',
+        templateUrl: 'app/components/analytics/analytics.html'
+      })
+     .state('app.settings', {
+        url: '/settings',
+        templateUrl: 'app/components/settings/settings.html'
       });
   }
 
