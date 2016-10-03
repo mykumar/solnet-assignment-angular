@@ -1,0 +1,10 @@
+<div class="container-fluid display-table">
+   <div class="row display-table-row">
+    <div ng-include src="'app/components/leftbar/leftbar.html'" include-replace></div>
+     <div class="col-md-10 col-sm-11 display-table-cell v-align">
+        <div ng-include src="'app/components/topbar/topbar.html'" include-replace></div>
+        <div class="row user-dashboard" ui-view>
+     </div>
+   </div>
+</div>
+
